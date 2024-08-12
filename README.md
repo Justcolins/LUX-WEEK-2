@@ -1,5 +1,5 @@
 # 1. Data Overview and Cleaning
-# Key Characteristics:
+1. Key Characteristics:
 
 Dataset Size: The dataset contains 8,784 records (rows) and 8 features (columns).
 Features: The dataset includes the following columns:
@@ -12,11 +12,11 @@ Features: The dataset includes the following columns:
 * Press_kPa (float64): The atmospheric pressure in kilopascals.
 * Weather (object): The recorded weather conditions.
 
-# Missing or Null Values:
+2. Missing or Null Values:
 
 There are no missing or null values in the dataset. All columns have 8,784 non-null entries. Since there are no missing values, no imputation or removal is necessary.
 
-# Duplicate Records:
+3. Duplicate Records:
 
 The dataset contains no duplicate records, as confirmed by the df.duplicated().sum() result showing 0 duplicates.
 # 2. Statistical Summary
