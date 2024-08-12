@@ -111,19 +111,46 @@ Mode: The most frequent wind speeds are in the range of 10-15 km/h, indicating t
 The visualization depicts the temperature trends across different seasons throughout the year 2012, highlighting notable patterns and seasonal variations:
 
 Notable Patterns and Seasonal Variations:
+
 Winter (Blue):
 
 Temperatures during the winter months (January and December) are consistently low, often dipping below 0°C.
 The temperatures exhibit significant fluctuations, indicating cold spells and possibly brief periods of warmer weather.
+
 Spring (Orange):
 
 A clear warming trend is evident as winter transitions into spring, with temperatures gradually rising from below 0°C to above 20°C.
 The increase in temperature is relatively steady, reflecting the seasonal shift towards warmer weather.
+
 Summer (Green):
 
 Summer shows the highest temperatures, often exceeding 30°C, with frequent fluctuations around the 20°C to 30°C range.
 This period is marked by stable and consistently warm conditions, characteristic of summer.
+
 Fall (Red):
 
 Fall displays a cooling trend, with temperatures gradually decreasing from summer highs back towards 0°C as winter approaches.
 Similar to spring, fall exhibits a steady change in temperature, though in the opposite direction, reflecting the seasonal cooling.
+
+# HEATMAP
+![alt text](image-1.png)
+
+The heatmap shows the correlation matrix between variables in the weather dataset.
+
+1. Strong Positive Correlation:
+
+Temperature (Temp_C) and Dew Point Temperature (Dew Point Temp_C): The correlation value is 0.93, indicating a strong positive relationship. As the temperature increases, the dew point temperature tends to increase as well.
+
+2. Negative Correlations:
+
+Relative Humidity (Rel Hum_%) and Visibility (Visibility_km): There is a negative correlation of -0.63, meaning that higher relative humidity is associated with lower visibility.
+Temperature (Temp_C) and Relative Humidity (Rel Hum_%): The correlation is -0.22, suggesting that as the temperature increases, relative humidity tends to decrease, though this relationship is weaker.
+
+3. Moderate Negative Correlation:
+
+Pressure (Press_kPa) and Wind Speed (Wind Speed_km/h): The correlation is -0.36, indicating that higher wind speeds are generally associated with lower atmospheric pressure.
+Pressure (Press_kPa) and Dew Point Temperature (Dew Point Temp_C): The correlation is -0.32, showing that when the pressure is higher, the dew point temperature tends to be lower.
+
+4. Weaker or No Significant Correlation:
+
+Wind Speed (Wind Speed_km/h) and Visibility (Visibility_km): The correlation is very close to zero (0.004), indicating little to no linear relationship between these variables.
