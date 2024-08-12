@@ -30,6 +30,7 @@ Standard Deviation: 11.69°C
 Minimum: -23.3°C
 Maximum: 33.0°C
 Median (50th Percentile): 9.3°C
+
 Dew Point Temperature (Dew Point Temp_C):
 
 Mean: 2.56°C
@@ -37,6 +38,7 @@ Standard Deviation: 10.88°C
 Minimum: -28.5°C
 Maximum: 24.4°C
 Median (50th Percentile): 3.3°C
+
 Relative Humidity (Rel Hum_%):
 
 Mean: 67.43%
@@ -44,6 +46,7 @@ Standard Deviation: 16.92%
 Minimum: 18%
 Maximum: 100%
 Median (50th Percentile): 68%
+
 Wind Speed (Wind Speed_km/h):
 
 Mean: 14.95 km/h
@@ -51,6 +54,7 @@ Standard Deviation: 8.69 km/h
 Minimum: 0 km/h
 Maximum: 83 km/h
 Median (50th Percentile): 13 km/h
+
 Visibility (Visibility_km):
 
 Mean: 27.66 km
@@ -58,6 +62,7 @@ Standard Deviation: 12.62 km
 Minimum: 0.2 km
 Maximum: 48.3 km
 Median (50th Percentile): 25.0 km
+
 Pressure (Press_kPa):
 
 Mean: 101.05 kPa
