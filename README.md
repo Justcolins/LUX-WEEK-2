@@ -105,3 +105,25 @@ Mode: The highest frequency is seen at around 60%, suggesting that moderately hu
 Range: Wind speed ranges from 0 km/h to about 83 km/h.
 Shape: The distribution is heavily right-skewed, with the majority of wind speeds falling between 0 km/h and 20 km/h.
 Mode: The most frequent wind speeds are in the range of 10-15 km/h, indicating that lower wind speeds are more common.
+
+![alt text](output.png)
+
+The visualization depicts the temperature trends across different seasons throughout the year 2012, highlighting notable patterns and seasonal variations:
+
+Notable Patterns and Seasonal Variations:
+Winter (Blue):
+
+Temperatures during the winter months (January and December) are consistently low, often dipping below 0°C.
+The temperatures exhibit significant fluctuations, indicating cold spells and possibly brief periods of warmer weather.
+Spring (Orange):
+
+A clear warming trend is evident as winter transitions into spring, with temperatures gradually rising from below 0°C to above 20°C.
+The increase in temperature is relatively steady, reflecting the seasonal shift towards warmer weather.
+Summer (Green):
+
+Summer shows the highest temperatures, often exceeding 30°C, with frequent fluctuations around the 20°C to 30°C range.
+This period is marked by stable and consistently warm conditions, characteristic of summer.
+Fall (Red):
+
+Fall displays a cooling trend, with temperatures gradually decreasing from summer highs back towards 0°C as winter approaches.
+Similar to spring, fall exhibits a steady change in temperature, though in the opposite direction, reflecting the seasonal cooling.
