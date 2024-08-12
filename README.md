@@ -23,7 +23,7 @@ The dataset contains no duplicate records, as confirmed by the df.duplicated().s
 Numerical Features Summary:
 The dataset consists of both integer and float data types, which are summarized statistically as follows:
 
-Temperature (Temp_C):
+* Temperature (Temp_C):
 
 Mean: 8.80°C
 Standard Deviation: 11.69°C
@@ -31,7 +31,7 @@ Minimum: -23.3°C
 Maximum: 33.0°C
 Median (50th Percentile): 9.3°C
 
-Dew Point Temperature (Dew Point Temp_C):
+* Dew Point Temperature (Dew Point Temp_C):
 
 Mean: 2.56°C
 Standard Deviation: 10.88°C
@@ -39,7 +39,7 @@ Minimum: -28.5°C
 Maximum: 24.4°C
 Median (50th Percentile): 3.3°C
 
-Relative Humidity (Rel Hum_%):
+* Relative Humidity (Rel Hum_%):
 
 Mean: 67.43%
 Standard Deviation: 16.92%
@@ -47,7 +47,7 @@ Minimum: 18%
 Maximum: 100%
 Median (50th Percentile): 68%
 
-Wind Speed (Wind Speed_km/h):
+* Wind Speed (Wind Speed_km/h):
 
 Mean: 14.95 km/h
 Standard Deviation: 8.69 km/h
@@ -55,7 +55,7 @@ Minimum: 0 km/h
 Maximum: 83 km/h
 Median (50th Percentile): 13 km/h
 
-Visibility (Visibility_km):
+* Visibility (Visibility_km):
 
 Mean: 27.66 km
 Standard Deviation: 12.62 km
@@ -63,7 +63,7 @@ Minimum: 0.2 km
 Maximum: 48.3 km
 Median (50th Percentile): 25.0 km
 
-Pressure (Press_kPa):
+* Pressure (Press_kPa):
 
 Mean: 101.05 kPa
 Standard Deviation: 0.84 kPa
@@ -73,16 +73,19 @@ Median (50th Percentile): 101.07 kPa
 
 # Outlier Detection:
 
-Temperature (Temp_C):
+* Temperature (Temp_C):
 
 The minimum temperature (-23.3°C) and maximum temperature (33.0°C) are significant deviations from the mean, indicating potential outliers.
-Dew Point Temperature (Dew Point Temp_C):
+
+* Dew Point Temperature (Dew Point Temp_C):
 
 The minimum (-28.5°C) and maximum (24.4°C) values for dew point temperature could be considered outliers due to their deviation from the mean.
-Wind Speed (Wind Speed_km/h):
+
+* Wind Speed (Wind Speed_km/h):
 
 The maximum wind speed of 83 km/h stands out as a potential outlier, given the mean wind speed is 14.95 km/h.
-Visibility (Visibility_km):
+
+* Visibility (Visibility_km):
 
 The minimum visibility of 0.2 km could indicate an outlier due to extreme weather conditions (e.g., heavy fog).
 This statistical summary provides an initial understanding of the weather dataset, highlighting the central tendency and dispersion of key weather parameters. Outlier detection is crucial for identifying unusual weather events or data recording errors that may need further investigation.
@@ -112,22 +115,22 @@ The visualization depicts the temperature trends across different seasons throug
 
 Notable Patterns and Seasonal Variations:
 
-Winter (Blue):
+* Winter (Blue):
 
 Temperatures during the winter months (January and December) are consistently low, often dipping below 0°C.
 The temperatures exhibit significant fluctuations, indicating cold spells and possibly brief periods of warmer weather.
 
-Spring (Orange):
+* Spring (Orange):
 
 A clear warming trend is evident as winter transitions into spring, with temperatures gradually rising from below 0°C to above 20°C.
 The increase in temperature is relatively steady, reflecting the seasonal shift towards warmer weather.
 
-Summer (Green):
+* Summer (Green):
 
 Summer shows the highest temperatures, often exceeding 30°C, with frequent fluctuations around the 20°C to 30°C range.
 This period is marked by stable and consistently warm conditions, characteristic of summer.
 
-Fall (Red):
+* Fall (Red):
 
 Fall displays a cooling trend, with temperatures gradually decreasing from summer highs back towards 0°C as winter approaches.
 Similar to spring, fall exhibits a steady change in temperature, though in the opposite direction, reflecting the seasonal cooling.
