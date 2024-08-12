@@ -86,3 +86,22 @@ Visibility (Visibility_km):
 
 The minimum visibility of 0.2 km could indicate an outlier due to extreme weather conditions (e.g., heavy fog).
 This statistical summary provides an initial understanding of the weather dataset, highlighting the central tendency and dispersion of key weather parameters. Outlier detection is crucial for identifying unusual weather events or data recording errors that may need further investigation.
+
+
+# 3. DATA VISUALIZATION
+
+![alt text](image.png)
+The visualization provided displays three histograms representing the distributions of key weather parameters: Temperature (°C), Relative Humidity (%), and Wind Speed (km/h).
+
+1. Temperature Distribution:
+Range: The temperature ranges from approximately -25°C to 35°C.
+Shape: The distribution is slightly skewed to the left, with the most frequent temperatures falling between 0°C and 10°C.
+Mode: The highest frequency is observed around 0°C, indicating that temperatures close to freezing are most common in the dataset.
+2. Humidity Distribution:
+Range: The relative humidity values range from 20% to 100%.
+Shape: The distribution is right-skewed, with a peak around 60% relative humidity, which is the most common value.
+Mode: The highest frequency is seen at around 60%, suggesting that moderately humid conditions are predominant.
+3. Wind Speed Distribution:
+Range: Wind speed ranges from 0 km/h to about 83 km/h.
+Shape: The distribution is heavily right-skewed, with the majority of wind speeds falling between 0 km/h and 20 km/h.
+Mode: The most frequent wind speeds are in the range of 10-15 km/h, indicating that lower wind speeds are more common.
