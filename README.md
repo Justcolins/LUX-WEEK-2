@@ -72,6 +72,7 @@ Maximum: 103.65 kPa
 Median (50th Percentile): 101.07 kPa
 
 # Outlier Detection:
+![alt text](image-3.png)
 
 * Temperature (Temp_C):
 
